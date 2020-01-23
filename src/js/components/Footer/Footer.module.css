@@ -1,0 +1,8 @@
+.footer {
+    background: #404040;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    min-height: 300px;
+    padding: 0px 0 60px 0;
+}
