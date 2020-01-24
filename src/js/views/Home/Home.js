@@ -9,6 +9,9 @@ const Home = () => {
 
     return (
         <>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container text-center">
+                
             <h1>Home page</h1>
 
             {!name && !email ? "welcome to Samir's Boiler plate" : <>
@@ -28,6 +31,8 @@ const Home = () => {
                     </div>
                 )
             })}
+            </div>
+        </div>
         </>
     )
 };

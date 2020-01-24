@@ -22,8 +22,8 @@ function App() {
   const [buttonColor, setButtonColor] = useState('blue');
 
   const [test, setTest] = useState([{
-    key1: "hello",
-    key2: "yoyo"
+    key1: "Hello",
+    key2: "World"
   }])
 
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
