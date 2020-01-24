@@ -5,17 +5,17 @@ const MyNavBar = () => {
    
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <Link to="/">Hello World</Link>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav ml-auto">
+                    <li className="nav-item">
                         <Link to="/"> <button className="btn btn-primary m-1" >Home</button>  </Link>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                         <Link to="/demo"><button className="btn btn-primary m-1" >Demo</button></Link>
                     </li>
                     </ul>
